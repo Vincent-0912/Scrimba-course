@@ -1,0 +1,192 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(5,52,19);
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    padding: 20px;
+    text-align: center
+}
+
+
+h2{
+    font-family: 'Lobster', cursive;
+    background-color:rgb(5,52,19);
+    color: #FCD801;
+    padding: 20px 20px;
+    margin-top: 0;
+    
+}
+
+section{
+    margin: 20px 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+span{
+    color: rgb(5,52,19);
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 20px; 
+    color: rgb(5,52,19);
+}
+
+img{
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+img:hover{
+    transition: transform .4s;
+    transform: scale(1.3);
+}
+
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin-left: 1em ;
+    margin-top: 2em;
+    background: #ddd;
+    color: rgb(5,52,19);
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+  }
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background:  #FCD801;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+/* h3 section */
+
+h3.desc{
+    border-bottom: 3px solid rgb(5,52,19);
+    padding-bottom: 5px;
+    width: 110px;
+}
+
+
+h3.color{
+    border-bottom: 3px solid rgb(5,52,19);
+    padding-bottom: 5px;
+    width: 180px;
+}
+
+h3.feed{
+    border-bottom: 3px solid rgb(5,52,19);
+    padding-bottom: 5px;
+    width: 80px;
+}
+
+/* Class element */
+
+.container{
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  
+}
+
+.sidebar{
+    width: 200%;
+    background-color: #FCD801;
+    padding: 20px 20px;
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.sidebar h2{
+    color: #fff;
+}
+
+
+.article{
+    width: 600%;
+}
+
+.columns{
+    display: flex;
+}
+
+.row{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.part{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.part h3{
+    margin-top: 0;
+}
+
+
+/* photo element */
+
+.photo{
+    width: 350px;
+    height: auto;
+}
+
+.photo-lizard{
+    width: auto;
+    height: 340px;
+   
+}
+
+.logo{
+    width: 100px;
+    filter: invert(100%)
+}
+
+
