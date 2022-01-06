@@ -2,5 +2,7 @@
 
 This file contains several course I have taken during the 'The Frontend Developer Career Path' training on Scrimba.
 
-You can check all the courses available on the following website \n [Scrimba][Scrimba] : https://scrimba.com/
+You can check all the courses available on the following website.
+
+[Scrimba][Scrimba] : https://scrimba.com/
 
