@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url("/sources/images/background.gif");
+    background-size: cover;
+    text-align: center;
+
+    font-family: "Space Mono", serif;
+}
+
+h1{
+    font-size: 48px;
+    text-shadow: 1px 1px 4px #FEFACE;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: #FEFACE;
+    font-size: 24px;
+    text-shadow:5px 5px 4px black;
+}
+
+
+#stars-word{
+    color: #FED201;
+    text-shadow: 5px 5px black;
+}
+
+.counter-wrapper{
+    height: 100vb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container{
+    max-width: 600px;
+
+    background:rgba(29, 41, 91, 0.5);
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#counter-el{
+    color: #FED201;
+    text-shadow: 5px 5px black;
+}
+
+button{
+    font-family: "Space Mono", serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 24px;
+    box-shadow: 2px 2px black;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.08);
+}
+
+.save-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#increment-btn{
+    background: #FED201;
+}
+
+#save-btn{
+    background: #0171B9;
+}
+
+#clear-btn{
+    background: #e4d9ff;
+}
